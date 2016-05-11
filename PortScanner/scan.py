@@ -11,7 +11,7 @@ remoteServer = input("Enter a remote host to scan: ")
 remoteServerIP = socket.gethostbyname(remoteServer)
 
 
-# start time for scan
+# start time for scanner
 scanStart = datetime.now()
 
 # Print a nice banner with information on which host we are about to scan
